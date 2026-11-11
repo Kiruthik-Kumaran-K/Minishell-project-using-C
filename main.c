@@ -16,7 +16,7 @@
  * variable assignments (e.g., PS1=NEW_PROMPT) and accessed by signal handlers 
  * to cleanly reprint the prompt when terminal interrupts occur.
  */
-char prompt[MAX_INPUT] = "minishell$ ";
+char prompt[MAX_INPUT] = "msh$ ";
 
 /**
  * @brief Main function to initialize and run the shell.
